@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=BC:D5:0C:A2:8C:D5:13:76:89:CC:54:EF:7C:71:D0:FB:B6:B4:5B:87%3Bchanakyasurvey.utilityapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    BC:D5:0C:A2:8C:D5:13:76:89:CC:54:EF:7C:71:D0:FB:B6:B4:5B:87
+
+    SHA-1 certificate fingerprint:
+    BC:D5:0C:A2:8C:D5:13:76:89:CC:54:EF:7C:71:D0:FB:B6:B4:5B:87
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <!--API KEY available on ornetapp123@gmail.com with project name SurveyAK219-->
+    <string name="google_maps_key" templateMergeStrategy="preserve"
+        translatable="false">AIzaSyD-uO8QBdisaNTgkg75PfCy5HExYwrpz2Q</string>
+</resources>

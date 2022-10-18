@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity"
+        android:background="#001E0F"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#8A000000"
+            android:gravity="center"
+            android:paddingVertical="2dp"
+            android:textColor="@color/white" />
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll"
+            android:layout_below="@+id/tv_area"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnDraw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6E69FF"
+                android:text="Draw"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/undo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6E69FF"
+                android:text="undo"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#6E69FF"
+                android:text="Clear"
+                android:textSize="20sp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</layout>
